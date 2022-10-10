@@ -1,0 +1,18 @@
+AR checking written on:
+'/home/abode/data/work/circuits_design/subckt/source auto changer/source auto change_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.125 Vias >= 0.125
+PHD margin on PTH = 0
+
+AR Via violation of 0.0 at XY 99.568,63.754
+AR Via violation of 0.05 at XY 100.838,66.802
+AR Via violation of 0.1 at XY 99.822,70.104
+AR Via violation of 0.1 at XY 98.814328,65.614559
+AR Via violation of 0.1 at XY 104.14,66.548
+AR Via violation of 0.1 at XY 106.426,67.818
+AR Via violation of 0.1 at XY 104.902,68.072
+VIAS that Pass = 4; Fails = 7
+TH PADS that Pass = 0; Fails = 0
+NPTH PADS that Pass = 0; Fails = 0

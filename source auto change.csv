@@ -1,0 +1,4 @@
+Reference, Quantity, Value, Footprint, Datasheet, Spice_Lib_File, Spice_Model, Spice_Netlist_Enabled, Spice_Node_Sequence, Spice_Primitive
+J1 J2 J3 J4 J5 J6 ,6,"pad","my_footprints:pad 2.2*1.35 mm",""
+U1 ,1,"SN74LVC1G00","my_footprints:SN74LVC1G00DRYR","https://www.ti.com/lit/gpn/sn74lvc1g00","/home/abode/data/work/circuits_design/ngspice/vendors/digital.lib","SN74LVC1G00","Y","4 1 2 5 3","X"
+U2 U3 ,2,"QH8MB5","my_footprints:QH8MB5TCR","https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8mb5tcr-e.pdf","/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib","QH8MB5","Y","","X"

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/abode/data/work/circuits_design/subckt/source auto changer/source auto change.kicad_sch</source>
+    <date>Thu 21 Jul 2022 00:33:22 +04</date>
+    <tool>Eeschema 6.0.6-1.fc36</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>source auto change.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>241f5729-4fef-410b-9107-a3461f216ca6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2349de21-a50f-4002-ad0e-df09b0da9e14</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dbc5031-22fc-45ef-9642-002b9deaabac</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2db9fc60-f831-48e8-bf07-f221e14db51e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07d37ac6-d35b-44e8-bcf5-9dc1c80ec2a7</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>pad</value>
+      <footprint>my_footprints:pad 2.2*1.35 mm</footprint>
+      <libsource lib="Connectors" part="pad" description="a pad for connecting modules to another PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7fbd57b-17a0-48f1-855c-4ae4919c6ab2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LVC1G00</value>
+      <footprint>my_footprints:SN74LVC1G00DRYR</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/sn74lvc1g00</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">/home/abode/data/work/circuits_design/ngspice/vendors/digital.lib</field>
+        <field name="Spice_Model">SN74LVC1G00</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Node_Sequence">4 1 2 5 3</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="digital" part="SN74LVC1G00" description="Single 2-input, 1.65-V to 5.5-V NAND gate"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="SN74LVC1G00"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Node_Sequence" value="4 1 2 5 3"/>
+      <property name="Spice_Lib_File" value="/home/abode/data/work/circuits_design/ngspice/vendors/digital.lib"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddd393f3-5cd4-4718-aa8b-98818263cf5c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>QH8MB5</value>
+      <footprint>my_footprints:QH8MB5TCR</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8mb5tcr-e.pdf</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib</field>
+        <field name="Spice_Model">QH8MB5</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="E-MOSFETs" part="QH8MB5" description="40V 4.5A/5.0A, Dual N_ch+P_ch  Power MOSFET"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="QH8MB5"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe9b36d-1300-4a1f-b35a-a66f3aa0f231</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>QH8MB5</value>
+      <footprint>my_footprints:QH8MB5TCR</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8mb5tcr-e.pdf</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib</field>
+        <field name="Spice_Model">QH8MB5</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="E-MOSFETs" part="QH8MB5" description="40V 4.5A/5.0A, Dual N_ch+P_ch  Power MOSFET"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="QH8MB5"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="source auto change.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bee3e44-af26-4050-900f-4c639e1d9e75</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connectors" part="pad">
+      <description>a pad for connecting modules to another PCB</description>
+      <footprints>
+        <fp>pad 0.7*0.25 mm</fp>
+        <fp>pad 2.2*1.35 mm</fp>
+        <fp>pad 4.25*2.77 mm</fp>
+        <fp>square pad 1*1mm</fp>
+        <fp>square pad 2*2mm</fp>
+        <fp>square pad 5*5mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="pad" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="E-MOSFETs" part="QH8MB5">
+      <description>40V 4.5A/5.0A, Dual N_ch+P_ch  Power MOSFET</description>
+      <docs>https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8mb5tcr-e.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">QH8MB5</field>
+        <field name="Footprint">my_footprints:QH8MB5TCR</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8mb5tcr-e.pdf</field>
+        <field name="Spice_Primitive">X</field>
+        <field name="Spice_Model">QH8MB5</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Lib_File">/home/abode/data/work/circuits_design/ngspice/vendors/E-MOSFETs.lib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="unspecified"/>
+        <pin num="2" name="G1" type="unspecified"/>
+        <pin num="3" name="S2" type="unspecified"/>
+        <pin num="4" name="G2" type="unspecified"/>
+        <pin num="5" name="D2" type="unspecified"/>
+        <pin num="6" name="D1" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="digital" part="SN74LVC1G00">
+      <description>Single 2-input, 1.65-V to 5.5-V NAND gate</description>
+      <docs>https://www.ti.com/lit/gpn/sn74lvc1g00</docs>
+      <footprints>
+        <fp>SN74LVC1G00DSFR</fp>
+        <fp>SN74LVC1G00DRYR</fp>
+        <fp>SN74LVC1G00DRY2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G00</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/sn74lvc1g00</field>
+        <field name="Spice_Primitive">X</field>
+        <field name="Spice_Model">SN74LVC1G00</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Node_Sequence">4 1 2 5 3</field>
+        <field name="Spice_Lib_File">/home/abode/data/work/circuits_design/ngspice/vendors/digital.lib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connectors">
+      <uri>/home/abode/kiCAD/symbols/Connectors.kicad_sym</uri>
+    </library>
+    <library logical="E-MOSFETs">
+      <uri>/home/abode/kiCAD/symbols/E-MOSFETs.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Batt+">
+      <node ref="J3" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="S2" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/Batt-">
+      <node ref="J4" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="S1" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/DC_wall+">
+      <node ref="J1" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="G1" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="G2" pintype="unspecified"/>
+      <node ref="U3" pin="3" pinfunction="S2" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/DC_wall-">
+      <node ref="J2" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="S1" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/NEG">
+      <node ref="J6" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="D1" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="D1" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/POS">
+      <node ref="J5" pin="1" pinfunction="pad" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="D2" pintype="unspecified"/>
+      <node ref="U3" pin="5" pinfunction="D2" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/not">
+      <node ref="U1" pin="4" pinfunction="Y" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="G1" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="G2" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>

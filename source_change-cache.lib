@@ -1,0 +1,119 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BJTs_2N3055G
+#
+DEF BJTs_2N3055G Q 0 10 Y Y 1 F N
+F0 "Q" 190 50 60 H V C CNN
+F1 "BJTs_2N3055G" 0 -270 60 H V C CNN
+F2 "my_footprints:2N3055G" 0 -370 60 H I C CNN
+F3 "" -380 -360 60 H I C CNN
+F4 "TO−204AA (TO−3)" -350 -480 50 H I C CNN "Package"
+F5 "TO−204AA (TO−3) - style 1" 0 -610 50 H I C CNN "Pin_config"
+F6 "Q" -310 -820 60 H I C CNN "Spice_Primitive"
+F7 "2n3055" 0 -830 60 H I C CNN "Spice_Model"
+F8 "Y" -60 -960 60 H I C CNN "Spice_Netlist_Enabled"
+F9 "/home/abode/data/work/circuits_design/ngspice/vendors/BJTs.lib" 0 -710 60 H I C CNN "Spice_Lib_File"
+F10 "Through hole" 260 -480 50 H I C CNN "mount"
+F11 "3 1 2" 170 -960 60 H I C CNN "Spice_Node_Sequence"
+$FPLIST
+ TO-3_ONS
+$ENDFPLIST
+DRAW
+C 0 0 158 1 1 6 N
+P 2 1 1 6 -160 0 -50 0 N
+P 2 1 1 6 -50 -50 50 -150 N
+P 2 1 1 6 -50 50 50 150 N
+P 2 1 1 6 -50 100 -50 -100 N
+P 4 1 1 10 -10 -110 10 -90 30 -130 -10 -110 F
+X B 1 -240 0 79 R 31 20 1 1 U
+X E 2 50 -230 79 U 31 20 1 1 U
+X C 3 50 230 79 D 31 20 1 1 U
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Simulation_SPICE_VDC
+#
+DEF Simulation_SPICE_VDC V 0 1 N Y 1 F N
+F0 "V" 100 100 50 H V L CNN
+F1 "Simulation_SPICE_VDC" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "dc(1)" 100 -100 50 H V L CNN "Spice_Model"
+DRAW
+C 0 0 100 0 1 10 f
+T 0 0 75 50 0 0 0 + Normal 0 C C
+P 2 0 0 0 -50 10 50 10 N
+P 2 0 0 0 -30 -10 -50 -10 N
+P 2 0 0 0 10 -10 -10 -10 N
+P 2 0 0 0 50 -10 30 -10 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Simulation_SPICE_VPWL
+#
+DEF Simulation_SPICE_VPWL V 0 1 N Y 1 F N
+F0 "V" 100 100 50 H V L CNN
+F1 "Simulation_SPICE_VPWL" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "pwl(0 -1 50n -1 51n 0 97n 1 171n -1 200n -1)" 100 -100 50 H V L CNN "Spice_Model"
+DRAW
+C 0 0 100 0 1 10 f
+T 0 0 75 50 0 0 0 + Normal 0 C C
+P 5 0 0 0 -70 -40 -30 40 -10 0 30 0 50 50 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND1
+#
+DEF power_GND1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND1 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

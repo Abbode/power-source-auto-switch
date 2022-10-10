@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "source_change-rescue")(type "Legacy")(uri "${KIPRJMOD}/source_change-rescue.lib")(options "")(descr ""))
+)
